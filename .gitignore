@@ -1,0 +1,22 @@
+# Node modules - do not upload to GitHub
+node_modules/
+
+# Environment variables - keep secrets safe
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
